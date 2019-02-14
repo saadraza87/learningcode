@@ -10,4 +10,3 @@ from bs4 import BeautifulSoup
 
 test_html = get('https://www.brecorder.com/exchange-rates/', stream=True)
 print(test_html)
-test_html
