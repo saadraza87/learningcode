@@ -8,5 +8,6 @@ from bs4 import BeautifulSoup
 
 #Testing simple_get
 
-test_html = get('https://www.brecorder.com/exchange-rates/', stream=True)
-print(test_html)
+#test_html = get('https://www.brecorder.com/exchange-rates/')
+test_html = get('http://www.habibmetro.com/exchange-rates/')
+print(test_html.text)
