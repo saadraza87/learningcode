@@ -3,7 +3,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
 # specify the url
-url = "https://www.bbc.com/sport/football/46897172"
+url = "https://www.bbc.com/sport/formula1/47322639"
 
 # Connect to the website and return the html to the variable ‘page’
 try:
