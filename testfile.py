@@ -11,4 +11,4 @@ while num_animal < 4:
         all_animals = animal_name + all_animals
         num_animal += 1
         
-print("You list of animals is", all_animals)
+print("Your list of animals is", all_animals)
